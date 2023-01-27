@@ -51,18 +51,18 @@ export const api_oauth = {
 //===========================替换搜索 Fuck Search================================
 //添加假番剧作公告板
 //标题 <em class="keyword">标签可以重点标注
-export const fs_title: string = '功能测试 <em class="keyword">xrz</em>';
+export const fs_title: string = 'Takagi3mie <em class="keyword">xrz</em>';
 //封面
 export const fs_cover: string =
-  "https://i0.hdslb.com/bfs/face/046974d6dde4af386f7eb4f231b84ec08bad693b.jpg";
+  "https://pica.zhimg.com/v2-3daed0a8ea3b58640ed12d419e44043e_r.jpg";
 //用处不明
-export const fs_uri: string = "https://xrz.cool";
+export const fs_uri: string = "https://home.jiasswee.ml";
 //标签-副标题1
-export const fs_style: string = "标签1 | 测试";
+export const fs_style: string = "Takagi3 | 咩";
 //标签-副标题2
-export const fs_label: string = "标签2 | test";
+export const fs_label: string = "Nishikata | Na";
 //描述(WEB版API)
-export const fs_desc: string = "这是一个公告哦！";
+export const fs_desc: string = "高木同学!";
 //番剧分数
 export const fs_rating: number = 10;
 //打分人数
@@ -203,7 +203,7 @@ export const whitelist_vip_enabled: io = 0;
 
 //===================获取公共黑白名单============================
 //功能开关 1-开 0-关
-export const public_blacklist_enabled: io = 0;
+export const public_blacklist_enabled: io = 1;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
 export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 //============================================================
@@ -215,10 +215,10 @@ export const need_login: io = 1;
 export const web_on: io = 1;
 //限制哔哩漫游最低版本(需设置 web_on = 0) 填写数字 0-不限制
 //1097为1.6.9的版本号
-export const ver_min: number = 1097;
+export const ver_min: number = 1084;
 //锁区，填写的是支持的地区 cn-中国大陆 hk-中国香港 tw-中国台湾 th-泰国/新加坡/东南亚地区
 //TODO 暂时未加地区检测，访问不支持地区由B站服务器提示错误。
-export const block_region: _block_region = ["hk"];
+export const block_region: _block_region = ["th"];
 //============================================================
 
 //=====================获取非官方泰区字幕========================
